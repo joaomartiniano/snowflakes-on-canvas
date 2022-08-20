@@ -36,4 +36,34 @@ function draw() {
         item.draw()
     })
 
+    drawText();
+}
+
+function drawText() {
+    let textWidth;
+    let x;
+    let text1 = "Snowflakes";
+    let text2 = "on";
+    let text3 = "<canvas>";
+    let text4 = "&copy; 2022 João Martiniano";
+
+    ctx.fillStyle = "#fff";
+    ctx.font = "normal normal 4rem 'Pacifico', Arial";
+
+    textWidth = ctx.measureText(text1).width;
+    x = (canvas.width / 2) - (textWidth/ 2);
+    ctx.fillText(text1, x, 150);
+
+    textWidth = ctx.measureText(text2).width;
+    x = (canvas.width / 2) - (textWidth/ 2);
+    ctx.fillText(text2, x, 220);
+
+    textWidth = ctx.measureText(text3).width;
+    x = (canvas.width / 2) - (textWidth/ 2);
+    ctx.fillText(text3, x, 290);
+
+    ctx.font = "normal normal 2rem 'Roboto', Calibri, Arial";
+    textWidth = ctx.measureText(text4).width;
+    x = (canvas.width / 2) - (textWidth/ 2);
+    ctx.fillText(text4, x, 400);
 }
