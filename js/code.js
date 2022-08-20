@@ -45,7 +45,7 @@ function drawText() {
     let text1 = "Snowflakes";
     let text2 = "on";
     let text3 = "<canvas>";
-    let text4 = "&copy; 2022 João Martiniano";
+    let text4 = "Made by João Martiniano (github.com/joaomartiniano)";
 
     ctx.fillStyle = "#fff";
     ctx.font = "normal normal 4rem 'Pacifico', Arial";
@@ -62,8 +62,8 @@ function drawText() {
     x = (canvas.width / 2) - (textWidth/ 2);
     ctx.fillText(text3, x, 290);
 
-    ctx.font = "normal normal 2rem 'Roboto', Calibri, Arial";
+    ctx.font = "normal normal 1.2rem 'Roboto', Calibri, Arial";
     textWidth = ctx.measureText(text4).width;
     x = (canvas.width / 2) - (textWidth/ 2);
-    ctx.fillText(text4, x, 400);
+    ctx.fillText(text4, x, canvas.height - 20);
 }
