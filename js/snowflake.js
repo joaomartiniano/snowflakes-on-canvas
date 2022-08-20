@@ -1,4 +1,4 @@
-class Snowflake {
+class snowflake {
     constructor(x, y, radius, color, speed, ctx) {
         this.x = x;
         this.y = y;
