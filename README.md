@@ -1,5 +1,7 @@
 # Snowflakes on &lt;Canvas&gt;
 
+<img src="animation.gif" alt="Demo of the falling snow effect">
+
 Falling snow effect, using JavaScript and the ```<Canvas>``` HTML element.
 
 The snowflakes are circles with different characteristics:
