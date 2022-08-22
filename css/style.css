@@ -1,5 +1,4 @@
 canvas {
-    border: 1px solid #000;
     background: rgb(15,115,136);
     background: linear-gradient(90deg, rgba(15,115,136,1) 0%, rgba(9,107,128,1) 100%);
 }
