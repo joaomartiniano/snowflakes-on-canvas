@@ -1,4 +1,4 @@
-# Snowflakes on &lt;Canvas&gt;
+# Snowflakes on &lt;canvas&gt;
 
 <img src="animation.gif" alt="Demo of the falling snow effect">
 
