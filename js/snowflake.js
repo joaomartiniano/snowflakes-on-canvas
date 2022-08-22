@@ -1,3 +1,6 @@
+// Copyright(c) João Martiniano. All rights reserved.
+// Licensed under the MIT license.
+
 class snowflake {
     constructor(x, y, radius, color, speed, ctx) {
         this.x = x;

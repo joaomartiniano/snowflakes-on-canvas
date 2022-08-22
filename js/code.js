@@ -1,3 +1,6 @@
+// Copyright(c) João Martiniano. All rights reserved.
+// Licensed under the MIT license.
+
 let canvas;
 let ctx;
 let snowFlakes = [];
